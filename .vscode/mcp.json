@@ -1,5 +1,11 @@
 {
     "servers": {
+        // "AgileFlow": {
+        //     "command": "python",
+        //     "args": [
+        //         "agileflow.py"
+        //     ],
+        // },
         "filesystem": {
             "command": "npx",
             "args": [
@@ -7,6 +13,6 @@
                 "@modelcontextprotocol/server-filesystem",
                 "."
             ]
-        },
+        }
     }
 }
